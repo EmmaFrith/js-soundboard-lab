@@ -15,14 +15,15 @@ body {
   width: 111px;
   height: 111px;
   line-height: 111px;
-  color: #ea422c;
+  color: black;
   margin: 4px 2px;
   text-decoration: none;
   font-size: 1.2em;
-  font-weight: 300;
+  font-weight: 500;
   text-align: center;
   position: relative;
-  border: 2px solid #222;
+  border-radius: 90px;
+  background-color: #ADD8E6;
 }
 
 #player div:hover {
@@ -30,15 +31,86 @@ body {
   color: white;
 }
 
+#player #work_it {
+  background-color: #fc9a95;
+}
+
+#player #make_it {
+  background-color: #fcb195;
+}
+
+#player #do_it {
+  background-color: #fcdd95;
+}
+
+#player #makes_us {
+  background-color: #f7e681;
+}
+
+#player #harder {
+  background-color: #e7f0a8;
+}
+
+#player #better {
+  background-color: #b7e09b;
+}
+
+#player #faster {
+  background-color: #9be0c0;
+}
+
+#player #stronger {
+  background-color: #9bdee0;
+}
+
+#player #more_than {
+  background-color: #9bbfe0;
+}
+
+#player #hour {
+  background-color: #9ba2e0;
+}
+
+#player #our {
+  background-color: #b49be0;
+}
+
+#player #never {
+  background-color: #d29be0;
+}
+
+#player #ever {
+  background-color: #e09bd8;
+}
+
+#player #after {
+  background-color: #e09bc2;
+}
+
+#player #work_is {
+  background-color: #eda4c1;
+}
+
+#player #over {
+  background-color: #faaaba;
+}
+
 #randomizer {
-  margin-top: 30px;
-  padding: 20px;
-  background-color: rgb(204, 204, 204);
-  border: 2px solid black;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: white;
+  border: 3px dashed black;
   font-family: 'Exo 2', sans-serif;
+  font-size: 1.2em;
+  border-radius: 20px;
 }
 
 #randomizer:hover {
-  background-color: black;
+  background-color: #b1aafa;
   color: white;
+}
+
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
 }
